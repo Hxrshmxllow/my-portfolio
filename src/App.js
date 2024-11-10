@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div style={{ textAlign: 'center' }}>
+            <h1>My Portfolio</h1>
+            <p>Hello! My name is [Your Name]. I’m an aspiring software developer.</p>
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Description of your first project</li>
+                <li>Project 2: Description of your second project</li>
+            </ul>
+        </div>
+    );
 }
 
 export default App;
