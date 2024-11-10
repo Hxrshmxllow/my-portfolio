@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-function App() {
-    return (
-        <div style={{ textAlign: 'center' }}>
-            <h1>My Portfolio</h1>
-            <p>Hello! My name is [Your Name]. I’m an aspiring software developer.</p>
-            <h2>Projects</h2>
-            <ul>
-                <li>Project 1: Description of your first project</li>
-                <li>Project 2: Description of your second project</li>
-            </ul>
-        </div>
-    );
+export default function App() {
+  return (
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
+  );
 }
-
-export default App;
