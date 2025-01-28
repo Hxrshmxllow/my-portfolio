@@ -15,7 +15,7 @@ function Projects() {
                         key={project.image || project.video}
                         className="project-card"
                     >
-                        <div className="project_content">
+                       <div className="project_content">
                             {project.video ? (
                                 <video
                                     src={project.video}
@@ -32,7 +32,11 @@ function Projects() {
                                     className="project_image"
                                 />
                             )}
-                            <p>{project.title}</p>
+                            <p className="project_title">{project.title}</p>
+                            <div className="project_overlay">
+                                <p className="project_tech">{project.techstack}</p>
+                                <p className="project_desc">{project.description}</p>
+                            </div>
                         </div>
                     </a>
                 ))}

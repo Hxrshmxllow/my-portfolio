@@ -1,7 +1,9 @@
 import tradingBotImage from '../images/trading-bot.png';
 import noblemart from '../images/noblemart.mov';
+import njtransit from '../images/njtransit.mov'
+import tictactoe from '../images/tictactoe.mov'
 import chess from '../images/chess.mov';
-import poker from '../images/poker.jpg';
+import poker from '../images/poker.png';
 import css from '../images/css.png';
 import django from '../images/django.png'
 import flask from '../images/flask.png';
@@ -16,40 +18,58 @@ import reactjs from '../images/react-js.png';
 import sql from '../images/sql.png';
 import vscode from '../images/vscode.png';
 import github from '../images/github.png';
+import pcep from '../images/pcep.pdf';
+import jpmorgan from '../images/jpmorgan.pdf'
 
 export const projects = [
     {
       title: "Trading Bot with EMA/SMA Strategy",
-      subtitle: "Python, Mathplotlib, YFinance, Alpaca API",
-      description:"Currently developing a trading bot using Yahoo Finance API to analyze an EMA/SMA strategy, factoring in risks and volatility for optimized trading decisions.\nIntegrated with Alpaca API for paper trading and used Matplotlib for visualizing data and analyzing strategy performance.\nAchieved a 13% profit for steady tickers and an average of 47% profit for high volatility tickers based on backtesting results.",
+      techstack: "Python, Mathplotlib, YFinance, Alpaca API",
+      description:"Integrated with Alpaca API for paper trading and used Matplotlib for visualizing data and analyzing strategy performance.",
       image: tradingBotImage,
       video: null,
       link: "https://github.com/Hxrshmxllow/Projects/tree/main/Trading%20Bot"
     },
     {
       title: "NobleMart",
-      subtitle: "Python, Flask, SQLite, HTML, TailwindCSS, UPCiteMDB API, Ebay API",
-      description:"Developed an e-commerce website for a fragrance business that features an admin dashboard for inventory management (delete, update, add via UPC lookup).\nImplement a fully functional shopping cart feature and integrated inventory management controls that allowed real-time tracking of stock levels; provided analytics insights to identify top-selling products while enhancing user experience.",
+      techstack: "Python, Flask, SQLite, HTML, TailwindCSS, UPCiteMDB API, Ebay API",
+      description:"Developed an e-commerce website for a fragrance business that features an admin dashboard for inventory management (delete, update, add via UPC lookup).",
       image: null,
       video: noblemart,
       link: "https://github.com/Hxrshmxllow/Projects/tree/main/noblemart"
     },
     {
       title: "Chess",
-      subtitle: "Python, PyGame, PyTorch",
-      description:"Created a player vs. player chess game using Pygame and implemented logic to detect check and checkmate scenarios. Currently building a reinforcement learning model using PyTorch, trained on Lichess game data to predict optimal moves and enhance AI performance.",
+      techstack: "Python, PyGame, PyTorch",
+      description:"Implement a pvp chess game with check and checkmate detection. Currently building a reinforcement learning model using PyTorch, trained on Lichess game data to predict optimal moves and enhance AI performance.",
       image: null,
       video: chess,
       link: null
     },
-    /*{
+    {
       title: "Poker",
-      subtitle: "Python, PyTorch",
+      techstack: "Python, PyTorch",
       description:"Developing a poker application with an AI opponent being integrated using PyTorch to create a model that can play against human players.",
       image: poker,
       video: null,
       link: null
-    }*/
+    },
+    {
+      title: "NJ-Transit Lost and Found",
+      techstack: "Python, Flask, HTML, Tailwind CSS, JS, Firebase, OpenAI API",
+      description:"Collabrated with a team of 4 to create a lost and found database for NJ Transit during a Rutgers University Hackathon. Images of lost items will be processed via OpenAI API to create a description and post.",
+      image: null,
+      video: njtransit,
+      link: 'https://github.com/Hxrshmxllow/Projects/tree/main/NJ-Transit-Lost-and-Found'
+    },
+    {
+      title: "Tic-Tac-Toe",
+      techstack: "Python, PyGame, Scikit-Learn",
+      description: "Working on training a model to predict moves given board states.",
+      image: null,
+      video: tictactoe,
+      link: 'https://github.com/Hxrshmxllow/Projects/blob/main/Tic-Tac-Toe'
+    }
 ]
 
 export const skills = [
@@ -112,5 +132,16 @@ export const skills = [
   {
     name: "Github",
     image: github,
+  }
+];
+
+export const certificates = [
+  {
+    name: "Python Institute: Certified Entry-Level Python Programmer",
+    image: pcep
+  },
+  {
+    name: "JPMorgan and Chase Co. Quantitative Research Job Simulation",
+    image: jpmorgan
   }
 ];
