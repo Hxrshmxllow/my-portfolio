@@ -1,0 +1,48 @@
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-left: 15px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    url('./images/background.svg') no-repeat top center,
+    black; 
+  background-size: cover;
+  z-index: -1; 
+}
+
+.custom-navbar {
+  background-color: #181C20 !important;
+  padding: 30px 50px !important;
+  height: 80px !important;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6) !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #03e9f4 !important;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+section {
+  scroll-margin-top: 70px;
+  margin-bottom: 200px;
+}
+
