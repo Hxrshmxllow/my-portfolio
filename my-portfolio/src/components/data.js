@@ -18,7 +18,7 @@ import python from '../images/python.png';
 import reactjs from '../images/react-js.png';
 import sql from '../images/sql.png';
 import vscode from '../images/vscode.png';
-import github from '../images/github.png';
+import github from '../images/github1.png';
 import pcep from '../images/pcep.pdf';
 import jpmorgan from '../images/jpmorgan.pdf';
 
@@ -89,10 +89,6 @@ export const skills = [
   {
     name: "JavaScript",
     image: js,
-  },
-  {
-    name: "React",
-    image: reactjs,
   },
   {
     name: "CSS",

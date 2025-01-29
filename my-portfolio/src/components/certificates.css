@@ -9,7 +9,7 @@
 }
 
 .certificates_heading {
-    background: -webkit-linear-gradient(#03e9f4, #03e9f4);
+    background: -webkit-linear-gradient(#91cae7, #5da6c3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.5rem; 
@@ -24,6 +24,7 @@
     gap: 50px; 
     width: 100%; 
     max-width: 1200px; 
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .certificate_content {
@@ -40,15 +41,18 @@
     text-decoration: none; 
     width: 550px;
     padding: 20px;
-    background-color: #232526; 
-    border: 1px solid #03e9f4; 
+    background-color: rgba(35, 37, 38, 0.7);
+    border: 1px solid #a8d5e6; 
     border-radius: 8px; 
     overflow: hidden; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .certificate_content:hover {
-    box-shadow: 0 0 20px #03e9f4, 0 0 40px #03e9f4, 0 0 60px #03e9f4;
+    box-shadow: 0 0 20px 
+    #91cae7, 0 0 40px 
+    #91cae7, 0 0 60px 
+    #91cae7;
     transform: scale(1.05); 
 }
 

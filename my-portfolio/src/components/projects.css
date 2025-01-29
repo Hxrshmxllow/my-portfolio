@@ -9,7 +9,7 @@
 }
 
 .projects_heading {
-    background: -webkit-linear-gradient(#03e9f4, #03e9f4);
+    background: -webkit-linear-gradient(#91cae7, #5da6c3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.5rem; 
@@ -23,7 +23,8 @@
     justify-content: center; 
     gap: 50px; 
     width: 100%; 
-    max-width: 1200px; 
+    max-width: 1200px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .project-card {
@@ -34,8 +35,8 @@
     text-decoration: none; 
     width: 350px;
     height: 250px; 
-    background-color: #232526; 
-    border: 1px solid #03e9f4; 
+    background-color: rgba(35, 37, 38, 0.7);
+    border: 1px solid #a8d5e6; 
     border-radius: 8px; 
     overflow: hidden; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -103,15 +104,15 @@
 }
 
 .project_title {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.0rem;
     margin-bottom: 0.5rem;
+    color: #ffffff;
 }
 
 .project_tech {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: #03e9f4;
+    color: #5da6c3;
 }
 
 .project_desc {

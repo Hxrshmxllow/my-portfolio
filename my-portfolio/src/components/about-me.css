@@ -46,8 +46,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 4px solid cyan; 
-    border-left: 4px solid cyan; 
+    border-top: 4px solid #a8d5e6; 
+    border-left: 4px solid #a8d5e6; 
     width: 60px; 
     height: 60px; 
     z-index: 1;
@@ -58,16 +58,15 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    border-bottom: 4px solid cyan; 
-    border-right: 4px solid cyan;
+    border-bottom: 4px solid #a8d5e6;
+    border-right: 4px solid #a8d5e6;
     width: 60px; 
     height: 60px; 
     z-index: 1;
   }
-  
 
 .about_heading{
-    background: -webkit-linear-gradient(#03e9f4, #03e9f4);
+    background: -webkit-linear-gradient(#91cae7, #5da6c3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
@@ -93,5 +92,5 @@
 }
 
 .socials_container a:hover {
-    transform: scale(1.2); 
+  transform: scale(1.2);
 }
