@@ -1,7 +1,8 @@
 import tradingBotImage from '../images/trading-bot.png';
 import noblemart from '../images/noblemart.mov';
-import njtransit from '../images/njtransit.mov'
-import tictactoe from '../images/tictactoe.mov'
+import njtransit from '../images/njtransit.mov';
+import tictactoe from '../images/tictactoe.mov';
+import bank from '../images/bank.mov';
 import chess from '../images/chess.mov';
 import poker from '../images/poker.png';
 import css from '../images/css.png';
@@ -19,7 +20,7 @@ import sql from '../images/sql.png';
 import vscode from '../images/vscode.png';
 import github from '../images/github.png';
 import pcep from '../images/pcep.pdf';
-import jpmorgan from '../images/jpmorgan.pdf'
+import jpmorgan from '../images/jpmorgan.pdf';
 
 export const projects = [
     {
@@ -69,6 +70,14 @@ export const projects = [
       image: null,
       video: tictactoe,
       link: 'https://github.com/Hxrshmxllow/Projects/blob/main/Tic-Tac-Toe'
+    },
+    {
+      title: "Banking Applicaiton",
+      techstack: "Java, JavaFX, Python, Flask, HTML, CSS, SQLite",
+      description: "(Java verison) Implement user authentication, wire transfers and viewable transaction history. (Flask) Converting it into a full-stack application.",
+      image: null,
+      video: bank,
+      link: 'https://github.com/Hxrshmxllow/Projects/tree/main/Bank'
     }
 ]
 
