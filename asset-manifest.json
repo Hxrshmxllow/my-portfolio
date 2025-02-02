@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c670642a.css",
-    "main.js": "/my-portfolio/static/js/main.a8f4f5b4.js",
+    "main.js": "/my-portfolio/static/js/main.94654c48.js",
     "static/js/488.21a3b654.chunk.js": "/my-portfolio/static/js/488.21a3b654.chunk.js",
     "static/media/noblemart.mov": "/my-portfolio/static/media/noblemart.01ac2f1e5ebbb40da731.mov",
     "static/media/njtransit.mov": "/my-portfolio/static/media/njtransit.45a5ef29cfc0bb23ca62.mov",
+    "static/media/rulate.mov": "/my-portfolio/static/media/rulate.6e29c75bbdde6d01a504.mov",
     "static/media/chess.mov": "/my-portfolio/static/media/chess.b0ffaf036161e25953c3.mov",
     "static/media/bank.mov": "/my-portfolio/static/media/bank.0a418bc1d6ffb96f9fe9.mov",
     "static/media/tictactoe.mov": "/my-portfolio/static/media/tictactoe.76209bc124d938d9c968.mov",
@@ -16,11 +17,11 @@
     "static/media/me.jpeg": "/my-portfolio/static/media/me.1befaaa9d4d067f1f2a1.jpeg",
     "index.html": "/my-portfolio/index.html",
     "main.c670642a.css.map": "/my-portfolio/static/css/main.c670642a.css.map",
-    "main.a8f4f5b4.js.map": "/my-portfolio/static/js/main.a8f4f5b4.js.map",
+    "main.94654c48.js.map": "/my-portfolio/static/js/main.94654c48.js.map",
     "488.21a3b654.chunk.js.map": "/my-portfolio/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c670642a.css",
-    "static/js/main.a8f4f5b4.js"
+    "static/js/main.94654c48.js"
   ]
 }
