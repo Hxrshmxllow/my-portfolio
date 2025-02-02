@@ -2,6 +2,7 @@ import tradingBotImage from '../images/trading-bot.png';
 import noblemart from '../images/noblemart.mov';
 import njtransit from '../images/njtransit.mov';
 import tictactoe from '../images/tictactoe.mov';
+import rulate from '../images/rulate.mov';
 import bank from '../images/bank.mov';
 import chess from '../images/chess.mov';
 import poker from '../images/poker.png';
@@ -78,6 +79,14 @@ export const projects = [
       image: null,
       video: bank,
       link: 'https://github.com/Hxrshmxllow/Projects/tree/main/Bank'
+    },
+    {
+      title: "RULate",
+      techstack: "React-Native Expo, Firebase, GoogleMapsAPI, Stripe",
+      description: "(Hackathon Winner) Rideshare app for Rutgers University Students. Implemented live route tracking and updates with payments made via Stripe.",
+      image: null,
+      video: rulate,
+      link: 'https://github.com/Hxrshmxllow/HackRU'
     }
 ]
 
