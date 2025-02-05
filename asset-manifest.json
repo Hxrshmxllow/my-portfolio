@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c670642a.css",
-    "main.js": "/my-portfolio/static/js/main.94654c48.js",
+    "main.js": "/my-portfolio/static/js/main.1df84203.js",
     "static/js/488.21a3b654.chunk.js": "/my-portfolio/static/js/488.21a3b654.chunk.js",
     "static/media/noblemart.mov": "/my-portfolio/static/media/noblemart.01ac2f1e5ebbb40da731.mov",
     "static/media/njtransit.mov": "/my-portfolio/static/media/njtransit.45a5ef29cfc0bb23ca62.mov",
+    "static/media/poker.mov": "/my-portfolio/static/media/poker.1e89585d3fd54e8feb90.mov",
     "static/media/rulate.mov": "/my-portfolio/static/media/rulate.6e29c75bbdde6d01a504.mov",
     "static/media/chess.mov": "/my-portfolio/static/media/chess.b0ffaf036161e25953c3.mov",
     "static/media/bank.mov": "/my-portfolio/static/media/bank.0a418bc1d6ffb96f9fe9.mov",
@@ -12,16 +13,15 @@
     "static/media/trading-bot.png": "/my-portfolio/static/media/trading-bot.357fa295dd6cc4a3c6c7.png",
     "static/media/pcep.pdf": "/my-portfolio/static/media/pcep.a25e140576e3be348cfc.pdf",
     "static/media/jpmorgan.pdf": "/my-portfolio/static/media/jpmorgan.4e71b7b9826d0bb6f905.pdf",
-    "static/media/poker.png": "/my-portfolio/static/media/poker.2766ded2f3c1b3f85dd4.png",
     "static/media/background.svg": "/my-portfolio/static/media/background.603716a6c28481abca78.svg",
     "static/media/me.jpeg": "/my-portfolio/static/media/me.1befaaa9d4d067f1f2a1.jpeg",
     "index.html": "/my-portfolio/index.html",
     "main.c670642a.css.map": "/my-portfolio/static/css/main.c670642a.css.map",
-    "main.94654c48.js.map": "/my-portfolio/static/js/main.94654c48.js.map",
+    "main.1df84203.js.map": "/my-portfolio/static/js/main.1df84203.js.map",
     "488.21a3b654.chunk.js.map": "/my-portfolio/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c670642a.css",
-    "static/js/main.94654c48.js"
+    "static/js/main.1df84203.js"
   ]
 }
