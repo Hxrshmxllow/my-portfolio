@@ -5,7 +5,7 @@ import tictactoe from '../images/tictactoe.mov';
 import rulate from '../images/rulate.mov';
 import bank from '../images/bank.mov';
 import chess from '../images/chess.mov';
-import poker from '../images/poker.png';
+import poker from '../images/poker.mov';
 import css from '../images/css.png';
 import django from '../images/django.png'
 import flask from '../images/flask.png';
@@ -52,9 +52,9 @@ export const projects = [
       title: "Poker",
       techstack: "Python, PyTorch",
       description:"Developing a poker application with an AI opponent being integrated using PyTorch to create a model that can play against human players.",
-      image: poker,
-      video: null,
-      link: null
+      image: null,
+      video: poker,
+      link: "https://github.com/Hxrshmxllow/Projects/tree/main/Poker"
     },
     {
       title: "NJ-Transit Lost and Found",
