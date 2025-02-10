@@ -50,8 +50,8 @@ export const projects = [
     },
     {
       title: "Poker",
-      techstack: "Python, PyTorch",
-      description:"Developing a poker application with an AI opponent being integrated using PyTorch to create a model that can play against human players.",
+      techstack: "Python, Flask, React.js, PyTorch",
+      description:"Developed a poker game using Flask as a backend API and React.js for the frontend, enabling a player vs. computer experience where the AI opponent is powered by OpenAI. The game collects gameplay data to train a PyTorch model, optimizing decision-making for actions like Call, Raise, and Fold.",
       image: null,
       video: poker,
       link: "https://github.com/Hxrshmxllow/Projects/tree/main/Poker"
